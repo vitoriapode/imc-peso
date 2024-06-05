@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    
+     <form action="">
+    <div class="container">
+        <div>
+            <label for="">entre com sua altura:</label>
+            <input type="number" id="altura">
+        </div>
+      
+        <div>
+            <label for="">entre com seu peso:</label>
+            <input type="number" id="peso">
+        </div>
+
+        <div>
+            <input type="submit" value="calcular imc" onclick="calcular()">
+        </div>
+
+        <div id="imc"></div>
+        <div id="status">STATUS:</div>
+    </div>
+</form>
 </body>
 </html>
